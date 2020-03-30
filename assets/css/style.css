@@ -5,6 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container-fluid {
+    margin: 0 auto;
+    width: 99%;
+}
+
 .header-txt {
     background:#f72210;
     font-family: 'Roboto Condensed', sans-serif;
@@ -29,7 +34,7 @@ nav::before {
     background: #f72210;
     position: absolute;
     top: 95px;
-    right: 15px;
+    right: 22px;
     content: "";
     display: block;
     border-left: 12px solid white;
@@ -72,12 +77,48 @@ nav::before {
     font-weight: bold;
 }
 
+.row1-content h3 {
+    margin-top: 15px;
+}
+
+.row1-content h3 a {
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.row-content-more {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #d9d9d9;
+}
+
+.card-txt {
+    padding: 10px;
+}
+
+.row1-content h3 a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+.row1-content p {
+    color: #333333;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .row1-content img{
     width: 100%;
 }
 
 .row1-content-img2 {
-    height: 295px;
+    height: 300px;
 }
 
 .row1-content-prof {
@@ -86,12 +127,16 @@ nav::before {
 }
 
 .row1-content-prof p {
-    margin: 10px 0px 0px 15px;
+    margin: 10px 0px 0px 10px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .row1-content-prof:last-child {
+    border-bottom: none;
+}
+
+.row1-content-prof:nth-child(5) {
     border-bottom: none;
 }
 
@@ -100,12 +145,152 @@ nav::before {
     height: 65px;
 }
 
-.row1-content-prof {
-    padding: 5px;
+.row1-content-article p {
+    color: rgba(39, 39, 39, 0.5);
+    font-size: 15px;
 }
 
-.prof-name {
+.row1-content-article p a {
+    color: #272727;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.prof-txt p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.prof-txt p:last-child {
     color: #555555;
     font-weight: bold;
     font-size: 14px;
+}
+
+.articles {
+    margin-top: 10px;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 10px;
+}
+
+.articles img {
+    width: 95px;
+    height: 95px;
+}
+
+.articles-txt {
+    margin-left: 15px;
+}
+
+.articles-txt p {
+    margin-top: 0px;
+}
+.articles-txt p:last-child {
+    margin-top: 15px;
+}
+.articles-txt p a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.articles-txt p a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.content4-header {
+    margin-top: 35px;
+}
+
+.articles2 {
+    padding-top: 0px;
+    border-top: 5px solid rgb(223, 72, 94);
+}
+
+.articles2-spcl {
+    padding-top: 0px;
+    border-top: 5px solid rgb(35, 35, 161); 
+}
+
+.byline {
+    border-top: double #d9d9d9;
+    margin-top: 20px;
+}
+
+.byline img {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+.byline-img1 {
+    position: absolute;
+    right: 20px;
+    top: 610px;
+}
+
+.byline-img2 {
+    position: absolute;
+    right: 20px;
+    top: 830px;
+}
+
+.byline p a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.byline-by {
+    color: #555555;
+    margin-right: 5px;
+}
+
+.versus {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px auto 0px;
+    width: 10%;
+    height: 40px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.card-baner {
+    margin: 20px 10px;
+    background: #f4f5f6;
+    color: #333333;
+    padding: 15px;
+}
+
+.card-baner-header img {
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.card-baner-header h2 {
+    font-size: 19px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
+.card-baner-btn {
+    color: white;
+    font-size: 18px;
+    background: #666666;
+    border: none;
+    padding: 8px;
+    margin: 10px 0px;
+}
+
+.card-baner p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #333333;;
 }
