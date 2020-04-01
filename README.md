@@ -1,15 +1,15 @@
 # NewsweekClone
 
-> Backgrounds and gradients.
+> Bootstrap.
 
-![screenshot](path)
+![screenshot](assets/img/screenshot.PNG)
 
-This project shows a web page similar to apple web page that shows how to work with backgrounds, positioning elements with float, flexbox and grid, as well as working with gradients. 
+This project shows a web page similar to the newsweek web page that shows how to work with bootstrap in order to achive the page design
 
 
 ## Built With
 
-- html, css
+- html, css, bootstrap
 - vscode
 
 ## Live Demo
