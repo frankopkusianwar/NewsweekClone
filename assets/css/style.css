@@ -1,320 +1,313 @@
 body {
-    color: #333333;
-    background: #f4f5f6;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background: #f4f5f6;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .container-fluid {
-    margin: 0 auto;
-    width: 99%;
-} */
-
 .header-content {
-    background:#f72210;
+  background: #f72210;
 }
 
 .header-txt {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #ffff;
-    font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffff;
+  font-size: 16px;
 }
 
 .header-txt-h1 {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 nav {
-    border: 1px solid yello;
+  border: 1px solid yello;
 }
 
 .header-txt-p {
-    font-weight: bold;
-    font-size: 17px;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .subscribe {
-    color: #f72210;
+  color: #f72210;
 }
 
 nav::before {
-    width: 66px;
-    background: #f72210;
-    position: absolute;
-    top: 95px;
-    right: 16px;
-    content: "";
-    display: block;
-    border-left: 12px solid white;
-    border-top: 13px solid #f72210;
-}
-
-.nav-links-li {
-    border-right: 1px solid gray;
+  width: 66px;
+  background: #f72210;
+  position: absolute;
+  top: 95px;
+  right: 16px;
+  content: "";
+  display: block;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
 }
 
 .nav-links-li a {
-    color: #000000;
-    font-size: 19px;
-}
-
-.nav-links-li a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-.nav-links-inpt input{
- width: 60px;
- border: none;
-}
-
-.fa-search {
-    font-size: 19px;
-}
-
-.row1-content h4 {
-    font-size: 16px;
-}
-
-.row1-content h3 a {
-    font-size: 24px;
-    color: #000000;
-}
-
-.row1-content p {
-    color: #333333;
-    font-size: 15px;
-}
-
-.row1-content div h3 a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
-
-}
-
-.row1-content-prof {
-    border-bottom: 1px solid #d9d9d9;
-}
-
-.row1-content-prof p {
-    font-size: 15px;
-}
-
-.row1-content-prof:last-child {
-    border-bottom: none;
-}
-
-.row1-content-prof:nth-child(5) {
-    border-bottom: none;
-}
-
-.row1-content-article p {
-    color: rgba(39, 39, 39, 0.5);
-    font-size: 15px;
-}
-
-.row1-content-article p a {
-    color: #272727;
-    font-size: 20px;
-}
-
-.prof-txt p a {
-    color: #000000;
-}
-
-.prof-txt p a:hover {
-    color: red;
-}
-
-.prof-txt p:last-child {
-    color: #555555;
-    font-size: 12px;
-}
-
-.articles {
-    border-top: 1px solid #d9d9d9;
-}
-
-.articles-spcl {
-    border-top: none;
-}
-
-.articles-txt p a {
-    color: #000000;
-    font-size: 17px;
-}
-
-.articles-txt p a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-.articles-txt-pt a:hover {
-    color: red;
-}
-
-.articles2 {
-    border-top: 5px solid rgb(223, 72, 94);
-}
-
-.articles2 img {
-    width: 95px;
-    height: 95px;
-}
-
-.articles2-spcl {
-    border-top: 5px solid rgb(35, 35, 161); 
-}
-
-.byline {
-    border-top: double #d9d9d9;
-}
-
-.byline img {
-    width: 63px;
-    height: 63px;
-}
-
-.byline-img1 {
-    position: absolute;
-    right: 20px;
-    top: 580px;
-}
-
-.byline-img2 {
-    position: absolute;
-    right: 20px;
-    top: 853px;
-}
-
-.byline p a {
-    color: #000000;
-    font-size: 14px;
-}
-
-.byline-by {
-    color: #555555;
-}
-
-.versus {
-    color: white;
-    margin: auto;
-    width: 11%;
-    height: 37px;
-    border-radius: 50%;
-}
-
-.card-baner {
-    background: #f4f5f6;
-    color: #333333;
-}
-
-.card-baner-header img {
-    width: 35px;
-    height: 35px;
-}
-
-.card-baner-header h2 {
-    font-size: 19px;
-}
-
-.card-baner-btn {
-    color: white;
-    font-size: 18px;
-    background: #666666;
-    border: none;
-}
-
-.card-baner p a {
-    font-size: 15px;
-    color: #333333;;
-}
-
-.magazine-row {
-    border-bottom: 1px solid #d9d9d9;
-}
-
-.magazine {
-    margin: auto;
-    width: 20%;
-}
-
-.magazine h2 {
-    color: #333333;
-    font-size: 19px;
-}
-
-.featured-magazine {
-    width: 40%;
-}
-
-.box1 p {
-    font-size: 16px;
-}
-
-.box1 p a {
-    color: #f72210;
-}
-
-.box1-txt {
-    color: white;
-    background: #f72210;
-}
-
-.grid-content-h3 {
-    font-size: 20px;
+  color: #000;
+  font-size: 19px;
 }
 
 .grid-content-h3 a {
-    color: #000000;
-}
-
-.grid-content-h3 a:hover {
-    text-decoration-color: red;
-}
-
-.grid-three {
-    border-bottom: 1px solid #d9d9d9;
-}
-
-.grid-three-h2 {
-    color: #f72210;
-    font-size: 20px;
-}
-
-.h2-text {
-    color: #f72210;
-    font-size: 17px;
-}
-
-.text h2 {
-    font-size: 24px;
-    color: #000000;
-}
-
-.text-btn {
-    color: white;
-    font-size: 15px;
-    background: #f72210;
-    border: none;
-    width: 130px;
-}
-
-.nesletter img {
-    width: 850px;
-    height: 263px;
-}
-
-.nesletter-h2 {
-    font-size: 22px;
-    color: #000000;
+  color: #000;
 }
 
 .footer-icons a {
-    font-size: 24px;
+  font-size: 24px;
+}
+
+.row1-content h3 a {
+  font-size: 24px;
+  color: #000;
+}
+
+.row1-content-article p a {
+  color: #272727;
+  font-size: 20px;
+}
+
+.prof-txt p a {
+  color: #000;
+}
+
+.articles-txt p a {
+  color: #000;
+  font-size: 17px;
+}
+
+.box1 p a {
+  color: #f72210;
+}
+
+.byline p a {
+  color: #000;
+  font-size: 14px;
+}
+
+.card-baner p a {
+  font-size: 15px;
+  color: #333;
+}
+
+.nav-links-li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.articles-txt-pt a:hover {
+  color: red;
+}
+
+.grid-content-h3 a:hover {
+  text-decoration-color: red;
 }
 
 .footer-icons a:hover {
-    color: blue;
+  color: blue;
 }
 
+.prof-txt p a:hover {
+  color: red;
+}
+
+.articles-txt p a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.row1-content div h3 a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.nav-links-li {
+  border-right: 1px solid gray;
+}
+
+.nav-links-inpt input {
+  width: 60px;
+  border: none;
+}
+
+.fa-search {
+  font-size: 19px;
+}
+
+.row1-content h4 {
+  font-size: 16px;
+}
+
+.row1-content p {
+  color: #333;
+  font-size: 15px;
+}
+
+.row1-content-prof {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.row1-content-prof p {
+  font-size: 15px;
+}
+
+.box1 p {
+  font-size: 16px;
+}
+
+.row1-content-prof:last-child {
+  border-bottom: none;
+}
+
+.row1-content-prof:nth-child(5) {
+  border-bottom: none;
+}
+
+.row1-content-article p {
+  color: rgba(39, 39, 39, 0.5);
+  font-size: 15px;
+}
+
+.prof-txt p:last-child {
+  color: #555;
+  font-size: 12px;
+}
+
+.articles {
+  border-top: 1px solid #d9d9d9;
+}
+
+.articles-spcl {
+  border-top: none;
+}
+
+.articles2 {
+  border-top: 5px solid rgb(223, 72, 94);
+}
+
+.articles2 img {
+  width: 95px;
+  height: 95px;
+}
+
+.articles2-spcl {
+  border-top: 5px solid rgb(35, 35, 161);
+}
+
+.byline {
+  border-top: double #d9d9d9;
+}
+
+.byline img {
+  width: 63px;
+  height: 63px;
+}
+
+.byline-img1 {
+  position: absolute;
+  right: 20px;
+  top: 580px;
+}
+
+.byline-img2 {
+  position: absolute;
+  right: 20px;
+  top: 853px;
+}
+
+.byline-by {
+  color: #555;
+}
+
+.versus {
+  color: white;
+  margin: auto;
+  width: 11%;
+  height: 37px;
+  border-radius: 50%;
+}
+
+.card-baner {
+  background: #f4f5f6;
+  color: #333;
+}
+
+.card-baner-header img {
+  width: 35px;
+  height: 35px;
+}
+
+.card-baner-header h2 {
+  font-size: 19px;
+}
+
+.card-baner-btn {
+  color: white;
+  font-size: 18px;
+  background: #666;
+  border: none;
+}
+
+.magazine-row {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.magazine {
+  margin: auto;
+  width: 20%;
+}
+
+.magazine h2 {
+  color: #333;
+  font-size: 19px;
+}
+
+.featured-magazine {
+  width: 40%;
+}
+
+.box1-txt {
+  color: white;
+  background: #f72210;
+}
+
+.grid-content-h3 {
+  font-size: 20px;
+}
+
+.grid-three {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.grid-three-h2 {
+  color: #f72210;
+  font-size: 20px;
+}
+
+.h2-text {
+  color: #f72210;
+  font-size: 17px;
+}
+
+.text h2 {
+  font-size: 24px;
+  color: #000;
+}
+
+.text-btn {
+  color: white;
+  font-size: 15px;
+  background: #f72210;
+  border: none;
+  width: 130px;
+}
+
+.nesletter img {
+  width: 850px;
+  height: 263px;
+}
+
+.nesletter-h2 {
+  font-size: 22px;
+  color: #000;
+}
