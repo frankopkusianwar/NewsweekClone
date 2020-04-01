@@ -309,3 +309,12 @@ nav::before {
     font-size: 22px;
     color: #000000;
 }
+
+.footer-icons a {
+    font-size: 24px;
+}
+
+.footer-icons a:hover {
+    color: blue;
+}
+
