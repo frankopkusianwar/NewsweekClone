@@ -14,7 +14,7 @@ This project shows a web page similar to the newsweek web page that shows how to
 
 ## Live Demo
 
-[Live Demo Link](path)
+[Live Demo Link](https://raw.githack.com/frankopkusianwar/NewsweekClone/Develop/index.html)
 
 
 ## Getting Started
@@ -33,6 +33,7 @@ To get a local copy up and running follow these simple example steps.
 ## Author
 
 - Okiror Frank
+- Email: okirorfrank3@gmail.com
 
 👤 **Author details**
 
