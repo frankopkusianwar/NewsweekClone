@@ -18,18 +18,6 @@ body {
   color: #f72210;
 }
 
-nav::before {
-  width: 5%;
-  background: #f72210;
-  position: absolute;
-  top: 16%;
-  right: 1.2%;
-  content: "";
-  display: block;
-  border-left: 12px solid white;
-  border-top: 13px solid #f72210;
-}
-
 .nav-links-li a {
   color: #000;
   font-size: 1.2rem;
@@ -275,6 +263,18 @@ nav::before {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  nav::before {
+    width: 5%;
+    background: #f72210;
+    position: absolute;
+    top: 16%;
+    right: 1.2%;
+    content: "";
+    display: block;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
   .card1 {
     width: 100%;
     margin: auto;
@@ -283,6 +283,18 @@ nav::before {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  nav::before {
+    width: 5%;
+    background: #f72210;
+    position: absolute;
+    top: 16%;
+    right: 1.2%;
+    content: "";
+    display: block;
+    border-left: 12px solid white;
+    border-top: 13px solid #f72210;
+  }
+
   .card1 {
     width: 100%;
     margin: auto;
