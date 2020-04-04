@@ -9,6 +9,10 @@ body {
   background: #f72210;
 }
 
+.logo {
+  height: 102px;
+}
+
 .header-txt {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1rem;
@@ -81,6 +85,10 @@ body {
   font-size: 0.7rem;
 }
 
+.prof-img {
+  height: 70px;
+}
+
 .articles {
   border-top: 1px solid #d9d9d9;
 }
@@ -110,20 +118,15 @@ body {
 .byline-img1 {
   position: absolute;
   right: 6%;
-  top: 17.3%;
+  top: 575px;
+  
 }
 
 .byline-img2 {
   position: absolute;
   right: 6%;
-  top: 25.6%;
-}
-
-.versus {
-  margin: auto;
-  width: 11%;
-  height: 37px;
-  border-radius: 50%;
+  top: 850px;
+  
 }
 
 .card-baner-header img {
@@ -143,6 +146,20 @@ body {
 .box1-txt {
   color: white;
   background: #f72210;
+}
+
+.box1-txt-spcl {
+  position: absolute;
+  top: 216px;
+}
+
+.box1-txt-spcl2 {
+  position: absolute;
+  top: 168px;
+}
+
+.top-story-tag {
+  top: 191px;
 }
 
 .grid-three-h2 {
@@ -252,23 +269,16 @@ body {
     width: 4.1%;
   }
 
-  .byline-img1 {
-    top: 16%;
-  }
-
-  .byline-img2 {
-    top: 24%;
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   nav::before {
-    width: 5%;
+    width: 70px;
     background: #f72210;
     position: absolute;
-    top: 16%;
-    right: 1.2%;
+    top: 105px;
+    right: 16px;
     content: "";
     display: block;
     border-left: 12px solid white;
@@ -278,17 +288,24 @@ body {
   .card1 {
     width: 100%;
     margin: auto;
+  }
+
+  .versus {
+    margin: auto;
+    width: 11%;
+    height: 37px;
+    border-radius: 50%;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   nav::before {
-    width: 5%;
+    width: 70px;
     background: #f72210;
     position: absolute;
-    top: 16%;
-    right: 1.2%;
+    top: 105px;
+    right: 16px;
     content: "";
     display: block;
     border-left: 12px solid white;
@@ -298,5 +315,12 @@ body {
   .card1 {
     width: 100%;
     margin: auto;
+  }
+
+  .versus {
+    margin: auto;
+    width: 11%;
+    height: 37px;
+    border-radius: 50%;
   }
 }
