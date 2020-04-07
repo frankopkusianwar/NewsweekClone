@@ -118,13 +118,13 @@ body {
 .byline-img1 {
   position: absolute;
   right: 6%;
-  top: 575px;
+  top: 615px;
 }
 
 .byline-img2 {
   position: absolute;
   right: 6%;
-  top: 850px;
+  top: 890px;
 }
 
 .card-baner-header img {
@@ -148,12 +148,12 @@ body {
 
 .box1-txt-spcl {
   position: absolute;
-  top: 216px;
+  top: 188px;
 }
 
 .box1-txt-spcl2 {
   position: absolute;
-  top: 168px;
+  top: 140px;
 }
 
 .top-story-tag {
@@ -275,7 +275,7 @@ body {
     background: #f72210;
     position: absolute;
     top: 105px;
-    right: 16px;
+    right: 104px;
     content: "";
     display: block;
     border-left: 12px solid white;
@@ -298,11 +298,11 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   nav::before {
-    width: 70px;
+    width: 40px;
     background: #f72210;
     position: absolute;
     top: 105px;
-    right: 16px;
+    right: 104px;
     content: "";
     display: block;
     border-left: 12px solid white;
