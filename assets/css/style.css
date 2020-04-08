@@ -293,6 +293,10 @@ body {
     height: 37px;
     border-radius: 50%;
   }
+
+  .nav-links-li a {
+    font-size: 0.8rem;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
